@@ -1,0 +1,3 @@
+
+powershell installer hyperv command C:\Windows\system32> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+                                    C:\Windows\system32> .\Dism.exe /Online /Enable-feature /All /featurename:Microsoft-Hyper-V
